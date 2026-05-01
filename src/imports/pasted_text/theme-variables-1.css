@@ -1,0 +1,387 @@
+ *:before, *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+body.dark {
+    --header-color: #141618;
+    --primary-color: #CCFF00;
+    --secondary-color: #000000;
+    --third-color: #ccff00;
+    --badge-border-color: #ccff00;
+    --forth-color: #516dfd;
+    --primary-text-color: #fff;
+    --secondary-text-color: #252142;
+    --header-text-color: #fff;
+    --no-wallet-bg: #262626;
+    --button-color3: #454545;
+    --title-border: #34353D;
+    --play-with-bg: #212328;
+    --play-with-border: #CCFF00;
+    --play-with-color: #CCFF00;
+    --event-badge-right: #ddf18e;
+    --about-plyasta-dis: #a7a7a7;
+    --plyatsa-btns: #fff;
+    --marquee-text-color: #fff;
+    --register-btn-bg: #212328;
+    --register-btn-border: #34353D;
+    --about-plyasta-bg: #212328;
+    --left-menu-text-color: #e5dbdb;
+    --seperator-border: #6e6e6e;
+    --left-menu-bg: #141618;
+    --left-icon-bg: #202228;
+    --left-menu-shadow1: rgba(255, 255, 255, 0.1);
+    --left-menu-hover-shadow: rgba(12, 12, 12, 0.10);
+    --body-bg-color: #141618;
+    --bg-color: #202228;
+    --white-text: #fff;
+    --black-text: #000;
+    --dropdown-bg: #292b30;
+    --market-back-text-color: #fff;
+    --market-lay-text-color: #fff;
+    --footer-bg: #292B30;
+    --background-color: #292B30;
+    --ac-slider-bg: #000;
+    --center-content--icon-bg: #464646;
+    --bottom-tab-bg: #1b1b1d;
+    --bottom-tab-border: #fff;
+    --badge-text-color: #fff;
+    --badge-bg-color: #353535;
+    --disable-color: #989898;
+    --border-color: #414141;
+    --border-color2: #414141;
+    --border-color3: #393939;
+    --no-icon-color: #434343;
+    --light-text-color: #A39C9C;
+    --bottom-tab-text-color: #fff;
+Show all properties (44 more)
+}
+body.dark {
+    --skeleton-effect-bg: #414141;
+    --trending-bg: #303030;
+    --skeleton-inner-bg: #585a5c;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-weight: 400;
+    background-color: var(--body-bg-color);
+    color: var(--primary-text-color);
+    font-family: Outfit;
+}
+body {
+    --header-color: #f4f4f5;
+    --primary-color: #CCFF00;
+    --secondary-color: #202323;
+    --third-color: #8eb100;
+    --forth-color: #143666;
+    --button-bg: linear-gradient(to right, #004099 0%, #143666 100%);
+    --sign-in-color: linear-gradient(to right, #004099 0%, #143666 100%);
+    --primary-text-color: #15141A;
+    --secondary-text-color: #fff;
+    --header-text-color: #252142;
+    --back-color: rgba(72, 205, 243, 0.25);
+    --lay-color: rgba(255, 68, 161, 0.25);
+    --back-border: #48CDF3;
+    --lay-border: #FF44A1;
+    --no-back-rate: rgb(6 86 109 / 5%);
+    --no-lay-rate: rgb(190 3 96 / 5%);
+    --no-wallet-bg: #fff;
+    --title-border: #C9C9C9;
+    --play-with-bg: #fff;
+    --play-with-border: #222222;
+    --play-with-subtitle: #898787;
+    --play-with-color: #000;
+    --event-badge-right: #8eb100;
+    --register-btn-bg: #E9E6E6;
+    --register-btn-border: #C9C9C9;
+    --about-plyasta-bg: #fff;
+    --about-plyasta-dis: #737070;
+    --about-ply-btns-hover: #CCFF00;
+    --white-color: #fff;
+    --plyatsa-btns: #143666;
+    --plyatsa-btns-border: #143666;
+    --left-menu-bg: #f4f4f5;
+    --left-menu-text-color: #6e6e6e;
+    --left-menu-header-color: #fff;
+    --left-icon-bg: #fff;
+    --left-menu-shadow1: rgba(12, 12, 12, 0.1);
+    --left-menu-hover-shadow: rgba(12, 12, 12, 0.10);
+    --body-bg-color: #f4f4f5;
+    --bg-color: #FBFBFB;
+    --white-text: #fff;
+    --black-text: #000;
+    --dropdown-bg: #fff;
+    --top-section-slider-bg: #143666;
+    --marquee-text-color: #143666;
+    --market-back-border: #67D4F4;
+    --market-lay-border: #FD64B0;
+    --market-back-text-color: #143666;
+    --market-lay-text-color: #143666;
+    --market-no-back-rate: rgba(6, 86, 109, 0.46);
+    --market-no-lay-rate: rgba(190, 3, 96, 0.46);
+Show all properties (103 more)
+}
+body {
+    top: 0 !important;
+    --whatsapp-id-bg: #fff;
+    --whatsapp-id-icon-bg: #000;
+    --whatsapp-id-green-color: #33e675;
+    --whatsapp-id-shadow: 0px 1px 5px #c9c9c9;
+}
+body {
+    top: 0 !important;
+    --whatsapp-id-bg: #fff;
+    --whatsapp-id-icon-bg: #000;
+    --whatsapp-id-green-color: #33e675;
+    --whatsapp-id-shadow: 0px 1px 5px #c9c9c9;
+}
+body {
+    --skeleton-effect-bg: #dedfe1;
+    --trending-bg: #cfd1d5;
+    --skeleton-inner-bg: #f2f3f5;
+}
+body.dark {
+    --header-color: #141618;
+    --primary-color: #CCFF00;
+    --secondary-color: #000000;
+    --third-color: #ccff00;
+    --badge-border-color: #ccff00;
+    --forth-color: #516dfd;
+    --primary-text-color: #fff;
+    --secondary-text-color: #252142;
+    --header-text-color: #fff;
+    --no-wallet-bg: #262626;
+    --button-color3: #454545;
+    --title-border: #34353D;
+    --play-with-bg: #212328;
+    --play-with-border: #CCFF00;
+    --play-with-color: #CCFF00;
+    --event-badge-right: #ddf18e;
+    --about-plyasta-dis: #a7a7a7;
+    --plyatsa-btns: #fff;
+    --marquee-text-color: #fff;
+    --register-btn-bg: #212328;
+    --register-btn-border: #34353D;
+    --about-plyasta-bg: #212328;
+    --left-menu-text-color: #e5dbdb;
+    --seperator-border: #6e6e6e;
+    --left-menu-bg: #141618;
+    --left-icon-bg: #202228;
+    --left-menu-shadow1: rgba(255, 255, 255, 0.1);
+    --left-menu-hover-shadow: rgba(12, 12, 12, 0.10);
+    --body-bg-color: #141618;
+    --bg-color: #202228;
+    --white-text: #fff;
+    --black-text: #000;
+    --dropdown-bg: #292b30;
+    --market-back-text-color: #fff;
+    --market-lay-text-color: #fff;
+    --footer-bg: #292B30;
+    --background-color: #292B30;
+    --ac-slider-bg: #000;
+    --center-content--icon-bg: #464646;
+    --bottom-tab-bg: #1b1b1d;
+    --bottom-tab-border: #fff;
+    --badge-text-color: #fff;
+    --badge-bg-color: #353535;
+    --disable-color: #989898;
+    --border-color: #414141;
+    --border-color2: #414141;
+    --border-color3: #393939;
+    --no-icon-color: #434343;
+    --light-text-color: #A39C9C;
+    --bottom-tab-text-color: #fff;
+Show all properties (44 more)
+}
+body.dark {
+    --skeleton-effect-bg: #414141;
+    --trending-bg: #303030;
+    --skeleton-inner-bg: #585a5c;
+}
+body {
+    --header-color: #f4f4f5;
+    --primary-color: #CCFF00;
+    --secondary-color: #202323;
+    --third-color: #8eb100;
+    --forth-color: #143666;
+    --button-bg: linear-gradient(to right, #004099 0%, #143666 100%);
+    --sign-in-color: linear-gradient(to right, #004099 0%, #143666 100%);
+    --primary-text-color: #15141A;
+    --secondary-text-color: #fff;
+    --header-text-color: #252142;
+    --back-color: rgba(72, 205, 243, 0.25);
+    --lay-color: rgba(255, 68, 161, 0.25);
+    --back-border: #48CDF3;
+    --lay-border: #FF44A1;
+    --no-back-rate: rgb(6 86 109 / 5%);
+    --no-lay-rate: rgb(190 3 96 / 5%);
+    --no-wallet-bg: #fff;
+    --title-border: #C9C9C9;
+    --play-with-bg: #fff;
+    --play-with-border: #222222;
+    --play-with-subtitle: #898787;
+    --play-with-color: #000;
+    --event-badge-right: #8eb100;
+    --register-btn-bg: #E9E6E6;
+    --register-btn-border: #C9C9C9;
+    --about-plyasta-bg: #fff;
+    --about-plyasta-dis: #737070;
+    --about-ply-btns-hover: #CCFF00;
+    --white-color: #fff;
+    --plyatsa-btns: #143666;
+    --plyatsa-btns-border: #143666;
+    --left-menu-bg: #f4f4f5;
+    --left-menu-text-color: #6e6e6e;
+    --left-menu-header-color: #fff;
+    --left-icon-bg: #fff;
+    --left-menu-shadow1: rgba(12, 12, 12, 0.1);
+    --left-menu-hover-shadow: rgba(12, 12, 12, 0.10);
+    --body-bg-color: #f4f4f5;
+    --bg-color: #FBFBFB;
+    --white-text: #fff;
+    --black-text: #000;
+    --dropdown-bg: #fff;
+    --top-section-slider-bg: #143666;
+    --marquee-text-color: #143666;
+    --market-back-border: #67D4F4;
+    --market-lay-border: #FD64B0;
+    --market-back-text-color: #143666;
+    --market-lay-text-color: #143666;
+    --market-no-back-rate: rgba(6, 86, 109, 0.46);
+    --market-no-lay-rate: rgba(190, 3, 96, 0.46);
+Show all properties (103 more)
+}
+body {
+    top: 0 !important;
+    --whatsapp-id-bg: #fff;
+    --whatsapp-id-icon-bg: #000;
+    --whatsapp-id-green-color: #33e675;
+    --whatsapp-id-shadow: 0px 1px 5px #c9c9c9;
+}
+body {
+    top: 0 !important;
+    --whatsapp-id-bg: #fff;
+    --whatsapp-id-icon-bg: #000;
+    --whatsapp-id-green-color: #33e675;
+    --whatsapp-id-shadow: 0px 1px 5px #c9c9c9;
+}
+body {
+    --skeleton-effect-bg: #dedfe1;
+    --trending-bg: #cfd1d5;
+    --skeleton-inner-bg: #f2f3f5;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+@media only screen and (min-width: 1200px) {
+    html {
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 14.5px;
+    }
+}
+@media only screen and (min-width: 0) {
+    html {
+        font-size: 14px;
+    }
+}
+html {
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+    font-weight: 400;
+    color: #000000de;
+}
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+@media only screen and (min-width: 1200px) {
+    html {
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 14.5px;
+    }
+}
+@media only screen and (min-width: 0) {
+    html {
+        font-size: 14px;
+    }
+}
+html {
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+    font-weight: 400;
+    color: #000000de;
+}
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    scrollbar-width: none;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #dcdcdc;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #dcdcdc;
+}
+::-webkit-scrollbar-thumb {
+    background: #dcdcdc;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+<style>
+@font-face {
+    font-family: Outfit;
+    src: url(../fonts/Outfit-ExtraLight.woff2) format("woff2"), url(../fonts/Outfit-ExtraLight.woff) format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
