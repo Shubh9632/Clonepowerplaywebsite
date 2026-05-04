@@ -78,26 +78,27 @@ export function PromotionsSection() {
       {/* Promotions scroll track: horizontal strip on mobile, grid on desktop */}
       <div 
         ref={scrollRef}
-        className="flex lg:grid lg:grid-cols-4 overflow-x-auto lg:overflow-x-hidden h-[190.8px] lg:h-[208.51px]"
+        className="flex lg:grid lg:grid-cols-4 overflow-x-auto lg:overflow-x-hidden lg:h-[208.51px]"
         style={{
           width: '100%',
           scrollbarWidth: 'none',
           padding: '0 8px',
           boxSizing: 'border-box',
-          gap: '10px'
+          gap: '10px',
+          height: 'auto',
         }}
       >
         {promotions.map((promo, index) => (
           <div
             key={index}
-            className="flex-shrink-0 h-full flex items-center justify-center"
+            className="flex-shrink-0 flex items-center justify-center"
+            style={{ width: 'calc(100vw - 32px)', flexShrink: 0 }}
           >
             <a
               href="javascript:void(0)"
               style={{
                 display: 'block',
-                width: '334px',
-                height: '190.8px',
+                width: '100%',
                 overflow: 'hidden',
                 borderRadius: '10px',
                 cursor: 'pointer',
@@ -106,7 +107,7 @@ export function PromotionsSection() {
                 background: 'transparent'
               }}
             >
-              <picture style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%' }}>
+              <picture style={{ display: 'block', width: '100%' }}>
                 <source media="(max-width: 1023px)" srcSet={promo.mobile} />
                 <source media="(min-width: 1024px)" srcSet={promo.desktop} />
                 <img
@@ -114,8 +115,9 @@ export function PromotionsSection() {
                   src={promo.desktop}
                   alt={promo.alt}
                   style={{ 
-                    width: '320px', 
-                    height: '185px', 
+                    width: '100%', 
+                    height: 'auto',
+                    aspectRatio: '320 / 185',
                     objectFit: 'cover', 
                     display: 'block',
                     borderRadius: '8px'

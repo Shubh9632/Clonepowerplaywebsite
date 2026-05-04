@@ -76,7 +76,12 @@ export function HeroBanner() {
       <style>{`
         .banner-height { height: 477px; }
         @media (max-width: 1023px) {
-          .banner-height { height: 130px; }
+          /* Use aspect-ratio so banner scales with viewport width */
+          .banner-height {
+            height: auto;
+            aspect-ratio: 421.6 / 131.6;
+            width: 100%;
+          }
         }
       `}</style>
 
